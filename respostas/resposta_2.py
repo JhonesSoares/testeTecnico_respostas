@@ -3,7 +3,7 @@
 def verificar_letra_a(texto):
     texto_minusculo = texto.lower()
     quantidades_de_a = texto_minusculo.count('a')
-    print(quantidades_de_a)
+    #print(quantidades_de_a)
     
     if 'a' in texto_minusculo:
         print('No seu texto contem a letra "a".')
